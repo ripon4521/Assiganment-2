@@ -32,13 +32,38 @@
         
     }
     .banner-content{
-        
+       
         width: 100%;
-        padding-left: 200px;
-        padding-top: 10px;
+        padding-left: 2px;
+        padding-top: 2px;
+        background-size: 100%;
+        padding-left: 150px;
+    }
+    .banner-content h1{
+        font-size: 65px;
+    }
+    .banner-content h2{
+        font-size: 40px;
+    }
+    .banner-content  p{
+        margin-top: 10px;
+    }
+    .btn1{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+    
+    .btn2{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+       
     }
     .banner-text{
-        margin-left: 20px;
+       
     }
   
     /* banner styles end here  */
@@ -54,6 +79,35 @@
         margin-left: 20px;
         margin-right: 4px;
         
+    }
+
+    /* funny games styles end here  */
+    .play-container{
+        flex-direction: column;
+        margin-top: 200px;
+        gap: 50px;
+    }
+    .play-content{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .play-content h1{
+        text-shadow: 1px 1px 1px rgba(11, 2, 35, 1);
+    }
+    .play-content span{
+        text-shadow: 1px 1px 1px #F948B2;
+    }
+    .play-photo img{
+        width: 500px;
+        height: 550px;
+        padding: 20px;
+    }
+    .play-imge{
+        margin-left: 100px;
+        width: 200px;
+        height: 250px;
+        margin-top: -120px;
     }
 }
  

@@ -94,7 +94,7 @@
   padding-left: 220px;
   padding-top: 140px;
   background-image: url(./images/Group\ 14.png) ;
-  background-size: cover cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 85vh;
 }
@@ -236,3 +236,61 @@
 .text i{
   font-size: 30px;
 }
+
+/* funny games end here  */
+
+.play-container{
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  gap: 265px;
+}
+.play-photo img{
+  width: 634.833px;
+height: 650px;
+
+}
+.play-content{
+  width: 20%;
+  text-align: right;
+  
+  
+}
+.play-content h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  color: #0B0223;
+}
+.play-content p{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-top: 24px;
+}
+.play-content span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-imge{
+  margin-left: 800px;
+  margin-top: -500px;
+}
+
+/* paly games styles end here  */
+
+.all-games-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* border: 2px solid #F948B2; */
+  
+}
+/* .all-games-card img p{
+  border: 2px solid #F948B2;
+} */

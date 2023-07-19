@@ -30,26 +30,87 @@
         margin: 0 auto;
     }
     .banner-content{
-        
+       
         width: 100%;
-        padding-left: 10px;
+        padding-left: 2px;
         padding-top: 2px;
+        background-size: 100%;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .banner-content h2{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 15px;
+        margin-top: 5px;
     }
     .banner-text{
+        margin-left: 30px;
+        margin-top: 50px;
+       
+    }
+    .btn1{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
         margin-left: 20px;
+        margin-right: 0;
+    }
+    
+    .btn2{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 0;
     }
     
     /* banner styles end here  */
     .games-cards-header h1{
-        margin-top: 100px;
+        margin-top: 50px;
+        text-shadow: #F948B2 ;
+        
     }
     .games-cards-header p{
         text-align: center;
         padding: 10px;
+       
     }
     .games-card{
         grid-template-columns: 1fr;
         margin-left: 40px;
         margin-right: 4px;
     }
+
+    /* funny games styles end here  */
+    .play-container{
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 50px;
+    }
+    .play-content{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .play-content h1{
+        text-shadow: 1px 1px 1px rgba(11, 2, 35, 1);
+    }
+    .play-content span{
+        text-shadow: 1px 1px 1px #F948B2;
+    }
+    .play-photo img{
+        width: 300px;
+        height: 350px;
+        padding: 20px;
+    }
+    .play-imge{
+        margin-left: 20px;
+        width: 150px;
+        height: 200px;
+        margin-top: -120px;
+    }
+
 }
