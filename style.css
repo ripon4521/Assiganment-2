@@ -283,14 +283,40 @@ height: 650px;
 
 /* paly games styles end here  */
 
+.all-games-container{
+  margin-top: 50px;
+  margin-left: 100px;
+  gap: 50px;
+  display: flex;
+ width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  
+}
 .all-games-card{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  width: 240px;
+  height: 80px;
+  gap: 10px;
+ 
+  background-color: rgb(245, 245, 245);
   /* border: 2px solid #F948B2; */
+  border-radius: 50px;
+  color: #FF42A5;
   
 }
-/* .all-games-card img p{
-  border: 2px solid #F948B2;
-} */
+.all-games-card p{
+  color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.all-games-card:hover{
+  border:2px solid #F948B2 ;
+}
